@@ -1,7 +1,5 @@
 name: Build APK
 
-env:
-  TOKEN: ${{ secrets.work }}
 on:
   workflow_dispatch:
     inputs:
